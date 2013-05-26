@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-void ShowHelp()
+void Help()
 {
 	puts("Usage");
 }
 
 int main (int argc, char * argv[])
 {
-	if (argc>1)
+	if (argc>1) 
 	{
 		if (strcmp(argv[1],"-h")==0)
 		{
